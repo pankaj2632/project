@@ -2,13 +2,45 @@ body
 {
     background-color: darkslategrey;
 }
-nav{
-    background-color: lightseagreen;
-    color: rgb(224, 44, 44);
-}
 header
 {
 	background-color: bisque;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 400px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px ;
+}
+nav ul li a {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+main{
+    align-items: center;
+    align-items: flex-start;
+    background-image: url(b1.jpg);
+    width: 99%;
+    height: 580px;
+}
+footer{
+    background-color: black;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
